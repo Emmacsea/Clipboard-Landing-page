@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg-header-desktop.png) no-repeat;
+    background-position: cover;
+    background-size: cover;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container .his-track {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5em 30em 0;
+}
+
+.his-track img {
+    width: 90px;
+    height: 80px;
+    margin-bottom: 1.5em;
+}
+
+.his-track .track {
+    color: hsl(210, 10%, 33%);
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.his-track .clipboard {
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.his-track nav {
+    margin: 2em 0 4em;
+    display: flex;
+    gap: 13px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: .7em 1.5em;
+    border-radius: 1.3em;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+nav .ios {
+    background: hsl(171, 66%, 44%);
+}
+
+nav .mac {
+    background: hsl(233, 100%, 69%);
+}
+
+.container .comp {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 10em 0 0;
+}
+
+.comp .img {
+    width: 600px;
+    height: 500px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.comp .sea {
+    max-width: 700px;
+    margin: 6em 0;
+}
+
+.sea .s {
+    display: flex;
+    flex-direction: column;
+    padding: 0 11em;
+    margin-bottom: 1.9em;
+}
+
+.s h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.s p {
+    color: hsl(201, 11%, 66%);   
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: .5em;
+}
+
+.container .bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+    padding: 0 28em;
+}
+
+.bottom h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.6em;   
+    font-weight: 600;
+    margin-bottom: .6em;
+}
+
+.bottom img {
+    width: 600px;
+    height: 400px;
+    margin: 3em 0;
+}
+
+.bottom p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.container .ico {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 3em;
+    padding: 1.4em 2em;
+}
+
+.ico .ico-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    
+}
+
+.ico-middle .img {
+    width: 100px;
+    height: 50px;
+
+}
+
+.ico-middle .img img {
+    width: 100%;    
+    height: 100%;
+    object-fit: contain; 
+}
+
+.ico-middle .words {
+    display: flex;
+    flex-direction: column;
+    margin: 1.3em 0;
+}
+
+.ico-middle h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.4em;   
+}
+
+.ico-middle p {
+    color: hsl(201, 11%, 66%);   
+}
