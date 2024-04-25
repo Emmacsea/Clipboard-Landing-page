@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bai Jamjuree";
 }
 
 .container {
@@ -46,7 +47,7 @@
     font-size: 1.1em;
 }
 
-.his-track nav {
+nav {
     margin: 2em 0 4em;
     display: flex;
     gap: 13px;
@@ -66,8 +67,18 @@ nav .ios {
     background: hsl(171, 66%, 44%);
 }
 
+nav .ios:hover {
+    background: hsl(171, 48%, 69%);
+
+}
+
 nav .mac {
     background: hsl(233, 100%, 69%);
+}
+
+nav .mac:hover {
+    background: hsl(231, 47%, 74%);
+
 }
 
 .container .comp {
@@ -147,19 +158,20 @@ nav .mac {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
     margin-top: 3em;
-    padding: 1.4em 2em;
+    gap: 25px;
+    padding: 1.4em 8em;
 }
 
 .ico .ico-middle {
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     align-self: center;
-    
+    margin: 1.4em 0;
 }
 
 .ico-middle .img {
@@ -177,14 +189,103 @@ nav .mac {
 .ico-middle .words {
     display: flex;
     flex-direction: column;
-    margin: 1.3em 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1.5em 0;
 }
 
-.ico-middle h3 {
+.words h3 {
     color: hsl(210, 10%, 33%);
-    font-size: 1.4em;   
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: .8em;   
 }
 
-.ico-middle p {
-    color: hsl(201, 11%, 66%);   
+.words p {
+    color: hsl(201, 11%, 66%); 
+    font-size: 1.2em;  
+    line-height: 1.4em;
+}
+
+.icon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: flex-start;
+}
+
+.icon-img img {
+    margin: 0 1.6em;
+    width: 220px;
+    height: 43px;
+}
+
+.ios-mac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 30em 5em;
+    text-align: center;
+}
+
+.ios-mac h2 {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 1.9em;
+    margin-bottom: .6em;   
+}
+
+.ios-mac p {
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.container .footer {
+    background: hsl(210, 11%, 89%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 8em 1em;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.footer .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: .9em;
+}
+
+.foot a {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    font-size: 1em;
+    margin-bottom: .7em;
+    cursor: pointer;
+}
+
+.footer .c {
+    margin-top: -1em;
+}
+
+.icon a {
+    text-decoration: none;
+    margin-left: .7em;
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+.footer a:hover {
+    color: hsl(171, 66%, 44%);
 }
